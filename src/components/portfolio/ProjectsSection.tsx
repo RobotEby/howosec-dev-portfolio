@@ -35,6 +35,14 @@ const projects: Project[] = [
     demo: 'https://cbaap.com.br',
   },
   {
+    title: 'Phantom-Synapse',
+    description:
+      'O Phantom Synapse é um scanner de portas TCP rápido e silencioso, desenvolvido em Python, que permite verificar se portas TCP específicas estão abertas, fechadas ou filtradas em um host de destino. O scanner usa a biblioteca Scapy para enviar pacotes TCP SYN e analisar respostas para determinar o estado da porta.',
+    image: 'images/phantom-synapse.png',
+    tech: ['Python', 'scapy', 'colorama', 'argparse'],
+    github: 'https://github.com/RobotEby/phantom-synapse',
+  },
+  {
     title: 'Docker To-Do List',
     description:
       'Este projeto é um aplicativo completo de lista de tarefas criado para demonstrar o poder da conteinerização e da orquestração de microsserviços. O aplicativo usa um front-end moderno em React, uma API robusta em Node.js, um banco de dados NoSQL e um pipeline CI/CD automatizado. ',
@@ -53,6 +61,14 @@ const projects: Project[] = [
     ],
     demo: 'https://docker-task-list.vercel.app/',
     github: 'https://github.com/RobotEby/docker-task-list',
+  },
+  {
+    title: 'Lojão Pop',
+    description:
+      'Loja de variedades localizada no bairro Gávea, especializada em utilidades domésticas, brinquedos e itens gerais para o lar. Focada em preços populares, a loja oferece produtos com valores acessíveis, incluindo brinquedos, mesas e itens de jardinagem. O Lojão Popular é conhecido por sua variedade de produtos a preços competitivos, atendendo às necessidades do dia a dia dos clientes.',
+    image: 'images/lojao-pop.png',
+    tech: ['React', 'TypeScript', 'Tailwind CSS'],
+    demo: 'https://lojao-pop.netlify.app/',
   },
   {
     title: 'Movie Cards Library',
