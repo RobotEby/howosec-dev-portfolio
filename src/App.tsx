@@ -7,7 +7,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Index from './pages/Index';
 import NotFound from './pages/NotFound';
 import BootSplash from './components/ui/BootSplash';
-import CustomCursor from './components/ui/CustomCursor';
 
 const queryClient = new QueryClient();
 
@@ -20,7 +19,6 @@ const App = () => {
         {!bootComplete && <BootSplash onComplete={() => setBootComplete(true)} />}
         {bootComplete && (
           <>
-            <CustomCursor />
             <Toaster />
             <Sonner />
             <BrowserRouter>
